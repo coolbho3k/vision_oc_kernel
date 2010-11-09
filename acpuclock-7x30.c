@@ -84,10 +84,12 @@ static struct cpufreq_frequency_table freq_table[] = {
 	{ 2, 768000 },
 	{ 3, 806400 },
 	{ 4, 1017600 },
-	{ 5, 1209600 },
-	{ 6, 1420800 },
-	{ 7, 1497600 },
-	{ 8, CPUFREQ_TABLE_END },
+	{ 5, 1113600 },
+	{ 6, 1209600 },
+	{ 7, 1305600 },
+	{ 8, 1401600 },
+	{ 9, 1497600 },
+	{ 10, CPUFREQ_TABLE_END },
 	/* Just an example of some of the insanity I was able to pull off on my
 	   device */
 	//{ 8, 1612800 },
